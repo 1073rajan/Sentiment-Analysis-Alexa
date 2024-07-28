@@ -116,7 +116,7 @@ git clone https://github.com/1073rajan/Sentiment-Analysis-Alexa.git
 
 Step 2: Open the cloned repository and create a conda environment. Activate the new environment
 ```
-conda create -n amazonreview python=3.10
+conda create -n virtualenv python=3.10
 ```
 ```
 conda activate virtualenv
