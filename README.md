@@ -30,23 +30,23 @@ The dataset used in this project consists of reviews for Amazon Alexa products, 
 ### Rating Distribution
 The distribution of ratings is visualized using a bar plot.
 
-![Rating Distribution](path/to/rating_distribution.png)
+![Rating Distribution](rating_distribution.png)
 
 ### Variation Distribution
 The count of each product variation is shown in the bar plot below.
 
-![Variation Distribution](path/to/variation_distribution.png)
+![Variation Distribution](Variation_distribution.png)
 
 ### Length of Reviews
 The distribution of the length of reviews is shown using a histogram.
 
-![Review Length Distribution](path/to/review_length_distribution.png)
+![Review Length Distribution](Length_of_review.png)
 
 ### Word Cloud
 Word clouds for positive and negative reviews highlight the most frequent words in each category.
 
-![Word Cloud for Positive Reviews](path/to/wordcloud_positive.png)
-![Word Cloud for Negative Reviews](path/to/wordcloud_negative.png)
+![Word Cloud for Positive Reviews](wordcloud_positive.png)
+![Word Cloud for Negative Reviews](wordcloud_negative.png)
 
 ## Sentiment Analysis
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 Step 1: Clone the repository
 ```
-git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
+git clone https://github.com/1073rajan/Sentiment-Analysis-Alexa.git
 ```
 
 Step 2: Open the cloned repository and create a conda environment. Activate the new environment
@@ -93,7 +93,7 @@ Step 2: Open the cloned repository and create a conda environment. Activate the 
 conda create -n amazonreview python=3.10
 ```
 ```
-conda activate amazonreview
+conda activate virtualenv
 ```
 
 Step 3: Install the requirements file
