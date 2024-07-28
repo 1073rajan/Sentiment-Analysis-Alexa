@@ -10,7 +10,8 @@ This project performs sentiment analysis on Amazon Alexa product reviews. The an
 - [Model Building](#model-building)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [How to use](#installation)
+- [Installation](#installation)
+- [How to use](#Howtouse)
 
 ## Introduction
 
@@ -57,18 +58,41 @@ Sentiment analysis is performed using the `feedback` column, which indicates whe
 The machine learning model is built using the following steps:
 1. **Text Preprocessing**: Cleaning and transforming the text data.
 2. **Feature Extraction**: Using `CountVectorizer` to create a bag-of-words model.
-3. **Model Training**: Training a Random Forest classifier.
+3. **Model Training**: Training a Random Forest classifier,XGBoost Classifier,Decision Tree Classifier.
 
 ### Model Performance
 The performance of the model is evaluated using accuracy metrics and a confusion matrix.
 
-![Confusion Matrix](path/to/confusion_matrix.png)
+Random Forest classifier Confusion Matrix.
+
+
+![Confusion Matrix](Randomforest_cm.png)
+
+XGBoost Classifier Confusion metrix.
+
+
+![Confusion Matrix](xgb_cm.png)
+
+Decision Tree Classification Confusion Matrix.
+
+
+![Confusion Matrix](Decision_tree_cm.png)
 
 ## Results
 
+   **Randomforest**
 - **Training Accuracy**: 99.41%
 - **Test Accuracy**: 93.86%
 
+  **XGBoost**
+- **Training Accuracy**: 97.00%
+- **Test Accuracy**: 93.43%
+
+    **DecisionTree**
+- **Training Accuracy**: 99.41%
+- **Test Accuracy**: 90.58%
+
+  
 The model performs well in classifying positive and negative reviews.
 
 ## Conclusion
@@ -79,8 +103,8 @@ This project demonstrates how to perform sentiment analysis on customer reviews 
 
 To install the required packages, use the following command:
 ```bash
-pip install -r requirements.txt
-
+pip install -r requirements.txt.
+```
 ## HOW TO RUN
 
 Step 1: Clone the repository
